@@ -2,7 +2,7 @@
   "name": "the-tiny-plastic-factory-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.thetinyplasticfactory.co.nz/",
+  "homepage": "http://www.thetinyplasticfactory.co.nz",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,10 +17,11 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "start": "react-scripts start",
-    "predeploy": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b master -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
