@@ -18,9 +18,6 @@ const App = () => {
       <AboutSection />
       <CollectionsSection />
       <SalesSection />
-      <div className="image-with-text-overlay">
-        <h2>Enough.</h2>
-      </div>
       <ContactSection />
       <PartnersSection />
     </div>

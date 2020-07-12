@@ -1,7 +1,7 @@
 import React from "react";
 export default {
   About: {
-    title: "Plastic recycling, reinvented",
+    title: "Plastic recycling, reinvented.",
     content: {
       TheTiny:
         "The Tiny Plastic Factory recycles used plastic from local businesses and supplies quality recycled plastic feedstock to manufacturers. Our purpose is to accelerate the transition of the global plastics industry towards a circular economy.",
@@ -24,7 +24,6 @@ export default {
         "This typically represents around 80% of used plastic businesses dispose of. Find the symbols for these below:",
       WeTrack:
         "We track the quantity and quality of all plastic we collect so can offer individualised plastic usage statistics, quality control feedback and impact reports for each business we work with.",
-      // TODO fix this link
 
       WantYour: (
         <>

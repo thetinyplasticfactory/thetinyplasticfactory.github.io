@@ -9,7 +9,7 @@ const ImagesBlock = ({ imgs, withLinks, title, id, size }) => {
       <div className={cn("img-block-content", `img-block-content-${size}`)}>
         {withLinks
           ? imgs.map(({ img, alt, link }, i) => (
-              <a href={link}>
+              <a target="_blank" rel="noopener noreferrer" href={link}>
                 <img
                   key={i}
                   src={img}
