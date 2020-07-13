@@ -21,7 +21,7 @@ const socialsBlock = () => {
       imgs={socialLinks}
       withLinks={true}
       id="socials"
-      size="small"
+      size="smallalways"
     />
   );
 };
