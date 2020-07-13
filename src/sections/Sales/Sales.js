@@ -1,7 +1,7 @@
 import React from "react";
 import ContentImageBlock from "../../components/ContentImageBlock/ContentImageBlock";
 import strings from "../../en-NZ";
-import plasticPieces from "../../imgs/plastic-pieces.png";
+import pot from "../../imgs/pot.jpg";
 import "./styles.scss";
 
 const salesContent = [
@@ -17,7 +17,7 @@ const SalesSection = () => {
       <ContentImageBlock
         title={strings.Sales.title}
         topcontent={salesContent}
-        img={plasticPieces}
+        img={pot}
         imgalt="plastic-pieces"
       />
     </div>

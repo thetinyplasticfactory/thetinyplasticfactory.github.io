@@ -35,6 +35,7 @@ const CollectionsSection = () => {
         img={smiling}
         imgalt="shaking-hands-smiling"
         imgblock={collectionsimgs}
+        size="small"
       />
     </div>
   );

@@ -5,12 +5,11 @@ import strings from "../../en-NZ";
 import BTFW from "../../imgs/partners/BTFW.png";
 import homehopper from "../../imgs/partners/home-hopper.png";
 import paperkite from "../../imgs/partners/paperkite.png";
-import remix from "../../imgs/partners/remix.png";
 import sharesies from "../../imgs/partners/sharesies.png";
 import springload from "../../imgs/partners/springload.png";
 import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
-import retrogrove from "../../imgs/partners/retrogrove.png";
+import wellyscl from "../../imgs/partners/Wellington-scl.png";
 
 //TODO add retrogrove
 
@@ -18,12 +17,7 @@ const partnersimgs = [
   {
     img: paperkite,
     alt: "home-hopper",
-    link: "https://www.hopper.nz/",
-  },
-  {
-    img: remix,
-    alt: "remix-plastic",
-    link: "https://remixplastic.com/",
+    link: "https://www.paperkite.co.nz/",
   },
 
   {
@@ -57,9 +51,9 @@ const partnersimgs = [
     link: "https://www.springload.co.nz/",
   },
   {
-    img: retrogrove,
-    alt: "retrogrove",
-    link: "https://goo.gl/maps/T9yUGWgdZZsTRDee6",
+    img: wellyscl,
+    alt: "wellington-southern-community-laboratory",
+    link: "https://www.wellingtonscl.co.nz/",
   },
 ];
 

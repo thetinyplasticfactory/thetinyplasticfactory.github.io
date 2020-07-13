@@ -10,6 +10,7 @@ const ContentImageBlock = ({
   img,
   imgalt,
   imgblock,
+  size,
 }) => {
   return (
     <div className="content-img-block" id={id}>
@@ -24,7 +25,7 @@ const ContentImageBlock = ({
             ))}
           </div>
 
-          {imgblock && <ImageBlock imgs={imgblock} />}
+          {imgblock && <ImageBlock imgs={imgblock} size={size} />}
 
           {bottomcontent && (
             <div className="content-img-block-content-p">
