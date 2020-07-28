@@ -56,8 +56,11 @@
       justify-content: center;
       align-items: center;
       img {
-        width: 150px;
+        width: 120px;
         margin-bottom: 40px;
+        @media (min-width: 768px) {
+          width: 150px;
+        }
       }
     }
   }

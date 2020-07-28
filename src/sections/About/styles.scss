@@ -1,3 +1,19 @@
 .about-section {
-  padding-top: 0em;
+  display: flex;
+  padding-top: 2.5em;
+  padding-bottom: 6em;
+
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #02793b;
+  @media (min-width: 768px) {
+    min-height: 100vh;
+    padding-top: 5em;
+    padding-bottom: 0;
+  }
 }
+
+// #about {
+//   margin-top: -3em;
+// }

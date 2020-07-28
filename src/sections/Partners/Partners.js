@@ -10,6 +10,7 @@ import springload from "../../imgs/partners/springload.png";
 import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
 import wellyscl from "../../imgs/partners/Wellington-scl.png";
+import myride from "../../imgs/partners/my-ride.png";
 
 //TODO add retrogrove
 
@@ -54,6 +55,11 @@ const partnersimgs = [
     img: wellyscl,
     alt: "wellington-southern-community-laboratory",
     link: "https://www.wellingtonscl.co.nz/",
+  },
+  {
+    img: myride,
+    alt: "my-ride-wellington",
+    link: "https://www.myride.co.nz/wellington/",
   },
 ];
 

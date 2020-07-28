@@ -55,8 +55,12 @@ export default {
     title: "The Tiny Plastic Factory",
     subtitle: "Plastic recycling, reinvented.",
     content: {
-      ForBusiness:
-        "For business inquiries, more information or a chat over coffee, flick us a line - we'd love to hear from you!",
+      ForBusiness: (
+        <>
+          For business inquiries, more information or a chat over coffee, <br />
+          flick us a line - we'd love to hear from you!
+        </>
+      ),
       // TODO make this a link
       Email: (
         <>
