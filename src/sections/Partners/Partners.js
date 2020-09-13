@@ -11,6 +11,9 @@ import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
 import wellyscl from "../../imgs/partners/Wellington-scl.png";
 import myride from "../../imgs/partners/my-ride.png";
+import verdant from "../../imgs/partners/verdant.png";
+import garageproject from "../../imgs/partners/garage-project.png";
+import hoopla from "../../imgs/partners/hoopla.jpg";
 
 //TODO add retrogrove
 
@@ -60,6 +63,21 @@ const partnersimgs = [
     img: myride,
     alt: "my-ride-wellington",
     link: "https://www.myride.co.nz/wellington/",
+  },
+  {
+    img: verdant,
+    alt: "verdant-chocolate",
+    link: "#",
+  },
+  {
+    img: garageproject,
+    alt: "garage-project",
+    link: "https://garageproject.co.nz/",
+  },
+  {
+    img: hoopla,
+    alt: "hoopla",
+    link: "https://www.hooplakids.nz/",
   },
 ];
 
