@@ -7,7 +7,7 @@ const NavigationBar = () => {
   return (
     <header className="nav">
       <div>
-        <a href="#top">
+        <a href="#top" tabIndex={0}>
           <img
             src={logo}
             alt="tiny-plastic-factory-logo"
@@ -15,23 +15,27 @@ const NavigationBar = () => {
           />
         </a>
       </div>
-      <div>
-        <a className="nav-link" href="#about">
+      <div className="hide-on-mobile">
+        <a className="nav-link" href="#about" tabIndex={0}>
           About
         </a>
-        <a className="nav-link" href="#collections">
+        <a className="nav-link" href="#collections" tabIndex={0}>
           Collection
         </a>
-        <a className="nav-link" href="#sales">
+        <a className="nav-link" href="#sales" tabIndex={0}>
           Sales
         </a>
-        <a className="nav-link" href="#contact">
+        <a className="nav-link" href="#contact" tabIndex={0}>
           Contact
+        </a>
+        <a className="nav-link" href="#partners" tabIndex={0}>
+          Partners
         </a>
       </div>
       <div className="nav-socials">
         <SocialsBlock />
       </div>
+      
     </header>
   );
 };

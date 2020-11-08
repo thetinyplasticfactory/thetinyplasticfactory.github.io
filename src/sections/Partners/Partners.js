@@ -9,7 +9,7 @@ import sharesies from "../../imgs/partners/sharesies.png";
 import springload from "../../imgs/partners/springload.png";
 import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
-import wellyscl from "../../imgs/partners/Wellington-scl.png";
+import sportsnz from "../../imgs/partners/Sport-nz.png";
 import myride from "../../imgs/partners/my-ride.png";
 import verdant from "../../imgs/partners/verdant.png";
 import garageproject from "../../imgs/partners/garage-project.png";
@@ -55,7 +55,7 @@ const partnersimgs = [
     link: "https://www.springload.co.nz/",
   },
   {
-    img: wellyscl,
+    img: sportsnz,
     alt: "wellington-southern-community-laboratory",
     link: "https://www.wellingtonscl.co.nz/",
   },
