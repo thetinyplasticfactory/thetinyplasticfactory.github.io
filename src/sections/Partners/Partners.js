@@ -14,8 +14,7 @@ import myride from "../../imgs/partners/my-ride.png";
 import verdant from "../../imgs/partners/verdant.png";
 import garageproject from "../../imgs/partners/garage-project.png";
 import hoopla from "../../imgs/partners/hoopla.jpg";
-
-//TODO add retrogrove
+import littleyellowbird from "../../imgs/partners/littleyellowbird.png";
 
 const partnersimgs = [
   {
@@ -78,6 +77,11 @@ const partnersimgs = [
     img: hoopla,
     alt: "hoopla",
     link: "https://www.hooplakids.nz/",
+  },
+  {
+    img: littleyellowbird,
+    alt: "little-yellow-bird",
+    link: "https://www.littleyellowbird.co.nz/",
   },
 ];
 
