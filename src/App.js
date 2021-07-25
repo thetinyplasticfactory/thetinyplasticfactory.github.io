@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-import coverImg from "./imgs/tpf-cover.png";
+import coverImg from "./imgs/tpf-cover.jpg";
 import AboutSection from "./sections/About/About";
 import CollectionsSection from "./sections/Collections/Collections";
 import SalesSection from "./sections/Sales/Sales";

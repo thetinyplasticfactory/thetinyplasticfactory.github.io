@@ -1,7 +1,7 @@
 import React from "react";
 import ContentImageBlock from "../../components/ContentImageBlock/ContentImageBlock";
 import strings from "../../en-NZ";
-import recycledPlastic from "../../imgs/recycled-plastic.png";
+import recycledPlastic from "../../imgs/recycled-plastic.jpg";
 import "./styles.scss";
 
 const aboutContent = [
