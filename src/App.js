@@ -41,7 +41,11 @@ const App = () => {
           rel="noopener noreferrer"
         >
           <small>Inspired by Precious Plastic</small>
-          <img src={preciousplastic} alt="Precius Plastic logo" height="30px" />
+          <img
+            src={preciousplastic}
+            alt="Precious Plastic logo"
+            height="30px"
+          />
         </a>
       </Footer>
     </div>
