@@ -3,7 +3,6 @@ import ImagesBlock from "../../components/ImagesBlock/ImagesBlock";
 import "./styles.scss";
 import strings from "../../en-NZ";
 import BTFW from "../../imgs/partners/BTFW.png";
-import homehopper from "../../imgs/partners/home-hopper.png";
 import paperkite from "../../imgs/partners/paperkite.png";
 import sharesies from "../../imgs/partners/sharesies.png";
 import springload from "../../imgs/partners/springload.png";
@@ -11,77 +10,57 @@ import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
 import sportsnz from "../../imgs/partners/Sport-nz.png";
 import myride from "../../imgs/partners/my-ride.png";
-import verdant from "../../imgs/partners/verdant.png";
-import garageproject from "../../imgs/partners/garage-project.png";
-import hoopla from "../../imgs/partners/hoopla.jpg";
-import littleyellowbird from "../../imgs/partners/littleyellowbird.png";
 
 const partnersimgs = [
   {
     img: paperkite,
-    alt: "home-hopper",
+    alt: "PaperKite",
     link: "https://www.paperkite.co.nz/",
-  },
-
-  {
-    img: homehopper,
-    alt: "home-hopper",
-    link: "https://www.hopper.nz/",
   },
   {
     img: sharesies,
-    alt: "sharesies",
+    alt: "Sharesies",
     link: "https://www.sharesies.nz/",
   },
   {
     img: wellyapoth,
-    alt: "wellington-apothecary",
+    alt: "Wellington Apothecary",
     link: "http://www.wellingtonapothecary.co.nz/",
   },
   {
     img: sustrust,
-    alt: "sustainability-trust",
+    alt: "Sustainability Trust",
     link: "https://sustaintrust.org.nz/",
   },
   {
     img: BTFW,
-    alt: "bread-tags-for-wheelchairs",
+    alt: "Bread Tags for Wheelchairs",
     link: "https://breadtagsforwheelchairs.co.za/",
   },
   {
     img: springload,
-    alt: "springload",
+    alt: "Springload",
     link: "https://www.springload.co.nz/",
   },
   {
     img: sportsnz,
-    alt: "wellington-southern-community-laboratory",
+    alt: "Wellington Southern Community Laboratory",
     link: "https://www.wellingtonscl.co.nz/",
   },
   {
     img: myride,
-    alt: "my-ride-wellington",
+    alt: "My Ride Wellington",
     link: "https://www.myride.co.nz/wellington/",
   },
   {
-    img: verdant,
-    alt: "verdant-chocolate",
-    link: "#",
+    img: myride,
+    alt: "Switched On Bikes",
+    link: "https://switchedonbikes.co.nz/",
   },
   {
-    img: garageproject,
-    alt: "garage-project",
-    link: "https://garageproject.co.nz/",
-  },
-  {
-    img: hoopla,
-    alt: "hoopla",
-    link: "https://www.hooplakids.nz/",
-  },
-  {
-    img: littleyellowbird,
-    alt: "little-yellow-bird",
-    link: "https://www.littleyellowbird.co.nz/",
+    img: myride,
+    alt: "EndGame",
+    link: "https://www.end-game.com/",
   },
 ];
 
