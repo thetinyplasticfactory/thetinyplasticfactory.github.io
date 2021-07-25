@@ -4,7 +4,7 @@ export default {
     title: "Plastic recycling, reinvented.",
     content: {
       TheTiny:
-        "The Tiny Plastic Factory recycles used plastic from local businesses and supplies quality recycled plastic feedstock to manufacturers. Our purpose is to accelerate the transition of the global plastics industry towards a circular economy.",
+        "The Tiny Plastic Factory is a social enterprise that recycles used plastic from local businesses and supplies quality recycled plastic feedstock to manufacturers within New Zealand. Our purpose is to accelerate the transition of the global plastics industry towards a circular economy.",
       CurrentlyGlobal:
         "Currently global plastic recycling rates average below 10%, with the majority of all plastic produced only ever being used once. Businesses have few ways, if any, of responsibly disposing of their used plastic, and manufacturers have limited options for buying quality recycled plastic. We're here to change this.",
       UsingSmall:
@@ -17,7 +17,7 @@ export default {
       WeCollectUsed:
         "We collect used plastic from local businesses using cargo bicycles and are currently able to service some areas of Wellington City.",
       WeCollectOn:
-        "We collect on request and charge per collection volume - only pay for what you use!",
+        "We work our recycling around you - arrange collections as often or little as you like.",
       WeCurrently:
         "We're currently able to collect and recycle polyethylene (both low and high density) and polypropylene plastic: RIC numbers 2,4 and 5.",
       ThisTypically:
@@ -39,14 +39,19 @@ export default {
       ManufacturingFrom:
         "Manufacturing from plastic? We can help with that. Our quality recycled material is not only better for the environment, but gets to you a lot quicker too. We ship nationwide within New Zealand and can provide significant savings in freight time and cost compared to internationally importing virgin plastic.",
       RoughFlakes:
-        "Rough flakes or uniform granulate, we can supply your plastic feedstock in the form you need. We can currently supply polyethylene (high and low density) and polypropylene, all in a range of colours.",
+        "We can currently supply high-density polyethylene and polypropylene granulates, both in a range of colours.",
       ForgetMinimum:
         "Forget minimum order quantities and import annoyances - we'll ship you any quantity of plastic feedstock, all proudly recycled here in NZ. We can help you replace or supplement your current plastic supply.",
-      // TODO fix this link
       WantTo: (
         <>
-          Want to manufacture more sustainably?{" "}
-          <a href="#contact">Get in touch</a>
+          Check out our current range of granulate{" "}
+          <a
+            href="https://bazar.preciousplastic.com/the-tiny-plastic-factory/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            here
+          </a>
         </>
       ),
     },

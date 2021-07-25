@@ -11,12 +11,7 @@ import { Products } from "./containers/Products";
 import { WhatWeDo } from "./containers/WhatWeDo";
 
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter, Route, Switch, useParams } from "react-router-dom";
-
-// function BlogPost() {
-//   let { slug } = useParams();
-//   return <div>Now showing post {slug}</div>;
-// }
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
