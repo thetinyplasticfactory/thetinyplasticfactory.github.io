@@ -10,6 +10,8 @@ import sustrust from "../../imgs/partners/sus-trust.png";
 import wellyapoth from "../../imgs/partners/wellington-apothecary.png";
 import sportsnz from "../../imgs/partners/Sport-nz.png";
 import myride from "../../imgs/partners/my-ride.png";
+import endgame from "../../imgs/partners/EndGame.png";
+import switchedonbikes from "../../imgs/partners/switched-on-bikes.png";
 
 const partnersimgs = [
   {
@@ -53,12 +55,12 @@ const partnersimgs = [
     link: "https://www.myride.co.nz/wellington/",
   },
   {
-    img: myride,
+    img: switchedonbikes,
     alt: "Switched On Bikes",
     link: "https://switchedonbikes.co.nz/",
   },
   {
-    img: myride,
+    img: endgame,
     alt: "EndGame",
     link: "https://www.end-game.com/",
   },
