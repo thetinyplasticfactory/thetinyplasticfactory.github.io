@@ -31,11 +31,13 @@ const NavigationBar = () => {
         <a className="nav-link" href="#partners" tabIndex={0}>
           Partners
         </a>
+        <a className="nav-link" href="https://tpf-store.web.app/" tabIndex={0}>
+          Shop
+        </a>
       </div>
       <div className="nav-socials">
         <SocialsBlock />
       </div>
-      
     </header>
   );
 };
