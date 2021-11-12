@@ -25,14 +25,21 @@ const NavigationBar = () => {
         <a className="nav-link" href="#sales" tabIndex={0}>
           Sales
         </a>
+        <a className="nav-link" href="https://tpf-store.web.app/" tabIndex={0}>
+          Shop
+        </a>
+        <a
+          className="nav-link"
+          href="https://tpf-store.web.app/stewardship"
+          tabIndex={0}
+        >
+          Stewardship
+        </a>
         <a className="nav-link" href="#contact" tabIndex={0}>
           Contact
         </a>
         <a className="nav-link" href="#partners" tabIndex={0}>
           Partners
-        </a>
-        <a className="nav-link" href="https://tpf-store.web.app/" tabIndex={0}>
-          Shop
         </a>
       </div>
       <div className="nav-socials">
