@@ -9,39 +9,28 @@ import { Contact } from "./containers/Contact";
 import { Manufacturing } from "./containers/Manufacturing";
 import { Products } from "./containers/Products";
 import { WhatWeDo } from "./containers/WhatWeDo";
-
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/">
-          <App />
-        </Route>
-        <Route path="/newlanding">
-          <Landing />
-        </Route>
-        <Route path="/story">
-          <Story />
-        </Route>
-        <Route path="/whatwedo">
-          <WhatWeDo />
-        </Route>
-        <Route path="/collection">
-          <Collection />
-        </Route>
-        <Route path="/manufacturing">
-          <Manufacturing />
-        </Route>
-        <Route path="/products">
-          <Products />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<App />} />
+        <Route path="/newlanding" element={<Landing />} />
+
+        <Route path="/story" element={<Story />} />
+
+        <Route path="/whatwedo" element={<WhatWeDo />} />
+
+        <Route path="/collection" element={<Collection />} />
+
+        <Route path="/manufacturing" element={<Manufacturing />} />
+
+        <Route path="/products" element={<Products />} />
+
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
