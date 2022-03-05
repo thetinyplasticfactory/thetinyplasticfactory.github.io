@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 .App {
   background-color: #028843;
@@ -8,19 +8,6 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-}
-
-.cover-img {
-  margin-right: -800px;
-  max-width: 800px;
-  min-height: 200px;
-  z-index: 0;
-
-  transform: translatex(-50%);
-  @media (min-width: 768px) {
-    margin-right: -100vw;
-    max-width: 100vw;
-  }
 }
 
 a {
@@ -42,5 +29,19 @@ html {
 
 body {
   line-height: 1.4;
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
 }

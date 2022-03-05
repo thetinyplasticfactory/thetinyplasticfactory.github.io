@@ -1,26 +1,31 @@
-import React from "react";
-import ContentImageBlock from "../../components/ContentImageBlock/ContentImageBlock";
-import strings from "../../en-NZ";
-import recycledPlastic from "../../imgs/recycled-plastic.jpg";
-import "./styles.scss";
+import React from 'react';
 
-const aboutContent = [
-  strings.About.content.TheTiny,
-  strings.About.content.CurrentlyGlobal,
-  strings.About.content.UsingSmall,
-];
+import { Container, GridContainer, GridSection } from '../../components/Container';
+import Darcy from '../../imgs/darcy-with-bike.jpeg';
 
-const AboutSection = () => {
+export const AboutSection = () => {
   return (
-    <div className="about-section" id="about">
-      <ContentImageBlock
-        title={strings.About.title}
-        topcontent={aboutContent}
-        img={recycledPlastic}
-        imgalt="recycled-plastic"
-      />
-    </div>
+    <Container className="about-section" id="about">
+      <GridContainer>
+        <GridSection>
+          <h1>About</h1>
+          <p>
+            The Tiny Plastic Factory is a social enterprise startup founded in 2018, based in
+            Wellington City, New Zealand. Our purpose is to accelerate the transition of the New
+            Zealand plastics industry toward a circular economy.
+          </p>
+          <p>
+            We believe that the use of plastic as a material should be carefully considered and
+            responsibly managed. We create and support circular systems that prioritise the
+            redesign, reduction and reuse of plastic.
+          </p>
+          <p>
+            If you'd like to support our work, please consider purchasing one of our{' '}
+            <a href="https://tpf-store.web.app/">Poneke Pots.</a>
+          </p>
+        </GridSection>
+        <GridSection background={`url(${Darcy})`}></GridSection>
+      </GridContainer>
+    </Container>
   );
 };
-
-export default AboutSection;
