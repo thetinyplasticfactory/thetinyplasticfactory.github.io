@@ -1,29 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c029a118.css",
-    "main.js": "/static/js/main.49794199.js",
-    "static/media/smiling.png": "/static/media/smiling.7d3c1bd4c078347e2e13.png",
-    "static/media/recycled-plastic.jpg": "/static/media/recycled-plastic.c8bcd2826d36f081882d.jpg",
-    "static/media/tpf-cover.jpg": "/static/media/tpf-cover.4222b441e7a6214c8c0f.jpg",
+    "main.css": "/static/css/main.1be30644.css",
+    "main.js": "/static/js/main.c1ae70d0.js",
+    "static/media/darcy-with-bike.jpeg": "/static/media/darcy-with-bike.3fdf55bfa53c0ef69bdc.jpeg",
+    "static/media/hero.jpeg": "/static/media/hero.b11d08f61ade65590e91.jpeg",
     "static/media/tpf.png": "/static/media/tpf.9c251e2c7c6fef95a46a.png",
-    "static/media/pot.jpg": "/static/media/pot.81e2fc7dde048f972613.jpg",
-    "static/media/my-ride.png": "/static/media/my-ride.743de6136b5ea10651f4.png",
-    "static/media/precious-plastic.png": "/static/media/precious-plastic.3aeac67237f20b67e9b7.png",
-    "static/media/sus-trust.png": "/static/media/sus-trust.49b772739d4e1dc36a16.png",
-    "static/media/switched-on-bikes.png": "/static/media/switched-on-bikes.37fac76e43715ef0ecf6.png",
-    "static/media/pp5.png": "/static/media/pp5.c36c5dc201bdf8699931.png",
-    "static/media/paperkite.jpg": "/static/media/paperkite.8afc1e2a61ba198dc6b0.jpg",
-    "static/media/BTFW.jpg": "/static/media/BTFW.2a1b5195b6cb18bddd59.jpg",
-    "static/media/sharesies.jpg": "/static/media/sharesies.9d68d5cd488c19346659.jpg",
-    "static/media/springload.jpg": "/static/media/springload.0e8ff31704e1ab5be784.jpg",
     "static/media/instagram.svg": "/static/media/instagram.3c34193d8f0ef500b2cddcf160165d26.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.e93307db7fe38add41661f1156de1e5c.svg",
-    "main.c029a118.css.map": "/static/css/main.c029a118.css.map",
-    "main.49794199.js.map": "/static/js/main.49794199.js.map"
+    "main.1be30644.css.map": "/static/css/main.1be30644.css.map",
+    "main.c1ae70d0.js.map": "/static/js/main.c1ae70d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c029a118.css",
-    "static/js/main.49794199.js"
+    "static/css/main.1be30644.css",
+    "static/js/main.c1ae70d0.js"
   ]
 }
