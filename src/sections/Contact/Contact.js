@@ -1,25 +1,26 @@
-import React from "react";
-import ContentBlock from "../../components/ContentBlock/ContentBlock";
-import strings from "../../en-NZ";
-import SocialsBlock from "../../components/SocialsBlock/SocialsBlock";
-import "./styles.scss";
+import React from 'react';
+import SocialsBlock from '../../components/SocialsBlock/SocialsBlock';
 
-const contactcontent = [
-  strings.Contact.content.ForBusiness,
-  strings.Contact.content.Email,
-];
+import { Container } from '../../components';
 
-const ContactSection = () => {
+import { StyledP } from './StyledP.styled';
+import { StyledH1 } from './StyledH1.styled';
+
+export const ContactSection = () => {
   return (
-    <div className="contact-section" id="contact">
-      <ContentBlock
-        title={strings.Contact.title}
-        subtitle={strings.Contact.subtitle}
-        content={contactcontent}
-      />
+    <Container className="contact-section" id="contact" flexDirection="column" background="#028843">
+      <StyledH1>The Tiny Plastic Factory</StyledH1>
+
+      <h3>Plastic recycling, reinvented.</h3>
+
+      <StyledP>
+        For business inquiries, more information or a chat over coffee,
+        <br /> flick us a line - we'd love to hear from you!
+      </StyledP>
+      <p>
+        <a href="mailto:thetinyplasticfactory@gmail.com">thetinyplasticfactory@gmail.com</a>
+      </p>
       <SocialsBlock />
-    </div>
+    </Container>
   );
 };
-
-export default ContactSection;
