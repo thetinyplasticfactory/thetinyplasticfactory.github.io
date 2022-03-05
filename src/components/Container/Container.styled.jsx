@@ -10,6 +10,12 @@ export const Container = styled.div`
   background: #02793b;
 
   ${props =>
+    props.textAlign &&
+    css`
+      text-align: ${props.textAlign};
+    `}
+
+  ${props =>
     props.flexDirection &&
     css`
       flex-direction: ${props.flexDirection};

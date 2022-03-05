@@ -8,7 +8,13 @@ import { StyledH1 } from './StyledH1.styled';
 
 export const ContactSection = () => {
   return (
-    <Container className="contact-section" id="contact" flexDirection="column" background="#028843">
+    <Container
+      className="contact-section"
+      id="contact"
+      flexDirection="column"
+      background="#028843"
+      textAlign="center"
+    >
       <StyledH1>The Tiny Plastic Factory</StyledH1>
 
       <h3>Plastic recycling, reinvented.</h3>
