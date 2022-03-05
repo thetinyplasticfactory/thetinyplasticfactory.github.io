@@ -5,7 +5,7 @@
   align-items: center;
   padding-top: 15px;
   height: 2.5em;
-  background-color: transparent;
+  background-color: #013c1e;
   width: 100vw;
   padding-bottom: 15px;
   z-index: 1;
@@ -13,7 +13,6 @@
   @media (min-width: 768px) {
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #013c1e;
   }
 
   &-logo {
@@ -38,16 +37,15 @@
     }
   }
   &-socials {
-    position: relative;
+    display: flex;
+
     right: 2em;
-    display: none;
     opacity: 0.7;
+    position: fixed;
+    right: 1em;
+    padding-top: 10px;
 
     @media (min-width: 768px) {
-      display: flex;
-      position: fixed;
-      right: 1em;
-      top: 0em;
       display: flex;
     }
   }
